@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas:
+            cm, mn, in, px, pt(não usar em tela), pc(não usar em tela).
+
+            Medidas relativas:
+            em(relativo ao maiusculo), ex(relativo ao minusculo), rem, vw (tamanho % da view port), vh(altura da view port).
+            
+            recomendação para usar em font-size: ; sempre usar px ou em (melhor é o 'em').
+            */
+
+            font-size: 1em;
+        }
+
+        h1 {
+            /*
+            em vez de usar:
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-style: italic;
+            font-size: 3em;
+            Usar:
+            Shorthand font (utiliza sempre essas 4 configurações)
+            Ordem -- font-style - font-weight - font-size - font-family-
+            */
+            font: italic bolder 3em 'Work Sans', sans serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis non nam, ex eum ab alias incidunt? Asperiores animi officiis assumenda libero est error praesentium cupiditate quam? Molestias, eum? Laborum, ab! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nostrum reiciendis quaerat sapiente sequi in, commodi, impedit vero beatae similique aut voluptatem sint dignissimos error nihil, nemo quisquam eveniet quo.</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem delectus praesentium voluptas tempora ea molestias deleniti corporis quo sunt qui enim expedita veritatis, illo quos officia tenetur fugit! Ducimus, consequuntur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis esse ut facilis recusandae dolore, pariatur labore. Nisi iusto repudiandae vitae? Ab facere quo ipsam in consequatur quaerat, deleniti esse cum?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum aliquid, minus, obcaecati ad quia repellat quos totam alias fugiat quae velit magnam consequuntur vel nulla odio ipsa necessitatibus iusto omnis!</p>
+</body>
+</html>
